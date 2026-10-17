@@ -6,6 +6,8 @@
 
 仓库：[github.com/wuliao117/dsh-excel-character-card](https://github.com/wuliao117/dsh-excel-character-card)
 
+[![test](https://github.com/wuliao117/dsh-excel-character-card/actions/workflows/test.yml/badge.svg)](https://github.com/wuliao117/dsh-excel-character-card/actions/workflows/test.yml)
+
 ## 为什么需要它
 
 想让 AI 扮演一个特定角色时，通常要先把人设贴进对话，角色一多就难以管理，换会话还会丢失。这个插件把角色档案放在 Excel 里：一张表可以写一个角色，也可以写一整组角色；导入后角色卡保存在本机，按会话启用，之后每一轮回复都会自动带上角色设定。
