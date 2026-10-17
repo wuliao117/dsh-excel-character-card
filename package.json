@@ -1,0 +1,51 @@
+{
+  "name": "dsh-excel-character-card",
+  "version": "1.0.0",
+  "description": "Excel 角色卡：读取 .xlsx 角色档案并让 DSH 扮演对应角色（DeepSeek Harness 插件）",
+  "type": "module",
+  "main": "./lib/index.js",
+  "icon": "./icon.png",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "sample",
+    "icon.png",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "excel",
+    "character-card",
+    "roleplay",
+    "persona"
+  ],
+  "license": "MIT",
+  "author": "wuliao117",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuliao117/dsh-excel-character-card.git"
+  },
+  "homepage": "https://github.com/wuliao117/dsh-excel-character-card#readme",
+  "bugs": {
+    "url": "https://github.com/wuliao117/dsh-excel-character-card/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

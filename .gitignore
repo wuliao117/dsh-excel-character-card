@@ -1,0 +1,6 @@
+node_modules/
+*.tgz
+state.json
+.DS_Store
+Thumbs.db
+*.log

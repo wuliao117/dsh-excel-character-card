@@ -1,0 +1,5 @@
+# dsh-excel-character-card bundle 层：挂载宿主插件与浏览器插件。
+- insert:
+    - id: excel-character-card
+      name: dsh-excel-character-card
+      config: {}
